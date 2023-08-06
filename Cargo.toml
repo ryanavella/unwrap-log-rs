@@ -1,0 +1,20 @@
+[package]
+name = "unwrap-log"
+version = "0.1.0"
+authors = ["Ryan Avella"]
+edition = "2021"
+
+categories = ["debugging"]
+description = "Non-panicking alternatives to `Option` and `Result` unwrapping, which log at warn level"
+documentation = "https://docs.rs/unwrap-log"
+homepage = "https://github.com/ryanavella/unwrap-log-rs"
+keywords = ["tracing", "logging", "log", "unwrap", "default"]
+license = "Unlicense OR MIT"
+readme = "README.md"
+repository = "https://github.com/ryanavella/unwrap-log-rs"
+
+[dependencies]
+log = "0.4"
+
+[dev-dependencies]
+env_logger = "0.10"

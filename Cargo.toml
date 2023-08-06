@@ -1,10 +1,10 @@
 [package]
 name = "unwrap-log"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Ryan Avella"]
 edition = "2021"
 
-categories = ["debugging"]
+categories = ["development-tools::debugging"]
 description = "Non-panicking alternatives to `Option` and `Result` unwrapping, which log at warn level"
 documentation = "https://docs.rs/unwrap-log"
 homepage = "https://github.com/ryanavella/unwrap-log-rs"
